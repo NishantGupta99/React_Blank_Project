@@ -5,10 +5,10 @@ import {Button} from "react-bootstrap";
 import {axios} from "axios";
 import { useState } from 'react';
 
-const users = () => {
-    const[user, setUser] = useState({username: "Nishant"});
+//const users = () => {
+  //  const[user, setUser] = useState({username: "Nishant"});
 
-}
+//}
 function Userform() {
     return (
         <div>
