@@ -5,7 +5,7 @@ import { render} from "react-dom"; // we will use this to render the method to i
 function FirstComponent() {
     return ( // you always need to return the function if we dont then there will be an error which states that nothing has been returned by the component 
         <React.Fragment> 
-        <div>
+        <div onClick > // discuss camel case in html attributes. 
             <h1>This is out first React component using function component</h1>
             <img src="istock-147290529.jpg" alt="Penguines should have been here but they got stuck somewhere!" width="500" height="333"></img>
             <ul>
