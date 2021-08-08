@@ -14,7 +14,7 @@ function NestedComponent() {
 const Component2   = () => { // and start the name of your component or function with a capital letter & here we have created a nested component but if we run this without calling this component inside the return of our first component this wont run / return
     return (
         <div>
-            <h2> this is my second-nested component and i have used an arrow function </h2>
+            <h2> this is my second-nested component and I have used an arrow function </h2>
         </div>
     )
 }
