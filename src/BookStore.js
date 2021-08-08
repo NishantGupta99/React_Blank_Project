@@ -16,7 +16,7 @@ function BookStore() { // the parent component
 }
  const BookDetails = () => {
      return (
-         <article>
+         <article className='book'>
              <Image></Image>
              <Title></Title>
              <Author></Author>
