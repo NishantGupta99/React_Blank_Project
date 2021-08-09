@@ -11,7 +11,7 @@ const SecondBook = {
 } // we have created objects that consists of all the information of each book and then we pass them through the component using props well we can use any other key word instead of props but it is the convention 
 
 
-function BookStore() { // the parent component 
+function BookStore() { // the parent component bhbh
     return (
         <section className="List">
             <BookDetails img={FirstBook.img}
